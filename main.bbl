@@ -1,0 +1,295 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{sd-mhd}{misc}{}
+      \list{publisher}{1}{%
+        {ScienceDirect}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ScienceDirect}
+      \field{month}{11}
+      \field{title}{Magnetohydrodynamics}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/topics/materials-science/magnetohydrodynamics
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/topics/materials-science/magnetohydrodynamics
+      \endverb
+    \endentry
+    \entry{scholar-mhd}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1d2b1cb8caf50db4fd9f7db3dba53f4e}{%
+           family={F.},
+           familyi={F\bibinitperiod},
+           given={Søren\bibnamedelima Bertil},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Scholarpedia}%
+      }
+      \strng{namehash}{1d2b1cb8caf50db4fd9f7db3dba53f4e}
+      \strng{fullhash}{1d2b1cb8caf50db4fd9f7db3dba53f4e}
+      \strng{bibnamehash}{1d2b1cb8caf50db4fd9f7db3dba53f4e}
+      \strng{authorbibnamehash}{1d2b1cb8caf50db4fd9f7db3dba53f4e}
+      \strng{authornamehash}{1d2b1cb8caf50db4fd9f7db3dba53f4e}
+      \strng{authorfullhash}{1d2b1cb8caf50db4fd9f7db3dba53f4e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scholarpedia}
+      \field{month}{11}
+      \field{title}{Magnetohydrodynamics}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb http://www.scholarpedia.org/article/Magnetohydrodynamics
+      \endverb
+      \verb{url}
+      \verb http://www.scholarpedia.org/article/Magnetohydrodynamics
+      \endverb
+    \endentry
+    \entry{first-mhd}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7621d9a4b28af528b153c3923848332a}{%
+           family={{Alfvén}},
+           familyi={A\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7621d9a4b28af528b153c3923848332a}
+      \strng{fullhash}{7621d9a4b28af528b153c3923848332a}
+      \strng{bibnamehash}{7621d9a4b28af528b153c3923848332a}
+      \strng{authorbibnamehash}{7621d9a4b28af528b153c3923848332a}
+      \strng{authornamehash}{7621d9a4b28af528b153c3923848332a}
+      \strng{authorfullhash}{7621d9a4b28af528b153c3923848332a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stockholms Observatoriums Annaler}
+      \field{month}{1}
+      \field{title}{{On the cosmogony of the solar system III}}
+      \field{volume}{14}
+      \field{year}{1946}
+      \field{pages}{9.1\bibrangedash 9.29}
+      \range{pages}{-1}
+    \endentry
+    \entry{wiki-mhd}{misc}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{11}
+      \field{title}{Magnetohydrodynamics}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Magnetohydrodynamics
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Magnetohydrodynamics
+      \endverb
+    \endentry
+    \entry{article1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e2911e98668fbabcab2c1c1999c46dfb}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard-Smithsonian Center for Astrophysics}%
+      }
+      \strng{namehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{fullhash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{bibnamehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{authorbibnamehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{authornamehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{authorfullhash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard-Smithsonian Center for Astrophysics}
+      \field{month}{11}
+      \field{title}{Ideal Magnetohydrodynamics}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://lweb.cfa.harvard.edu/~namurphy/Lectures/Ay253_01_IdealMHD.pdf
+      \endverb
+      \verb{url}
+      \verb https://lweb.cfa.harvard.edu/~namurphy/Lectures/Ay253_01_IdealMHD.pdf
+      \endverb
+    \endentry
+    \entry{article2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e6186749cfe4e6b54f7475ae22aeba86}{%
+           family={Nakariakov},
+           familyi={N\bibinitperiod},
+           given={Valery},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Warwick}%
+      }
+      \strng{namehash}{e6186749cfe4e6b54f7475ae22aeba86}
+      \strng{fullhash}{e6186749cfe4e6b54f7475ae22aeba86}
+      \strng{bibnamehash}{e6186749cfe4e6b54f7475ae22aeba86}
+      \strng{authorbibnamehash}{e6186749cfe4e6b54f7475ae22aeba86}
+      \strng{authornamehash}{e6186749cfe4e6b54f7475ae22aeba86}
+      \strng{authorfullhash}{e6186749cfe4e6b54f7475ae22aeba86}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{University of Warwick}
+      \field{month}{11}
+      \field{title}{Magnetohydrodynamics (MHD)}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/valery/teaching/khu_mhd/KHU_mhd_handout.pdf
+      \endverb
+      \verb{url}
+      \verb https://warwick.ac.uk/fac/sci/physics/research/cfsa/people/valery/teaching/khu_mhd/KHU_mhd_handout.pdf
+      \endverb
+    \endentry
+    \entry{wiki-momentum}{misc}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{11}
+      \field{title}{Cauchy momentum equation}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Cauchy_momentum_equation
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Cauchy_momentum_equation
+      \endverb
+    \endentry
+    \entry{nonlinear-mhd-book}{book}{}
+      \name{author}{1}{}{%
+        {{hash=32591b14fca004c32adeddff2ed3eb91}{%
+           family={Biskamp},
+           familyi={B\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{32591b14fca004c32adeddff2ed3eb91}
+      \strng{fullhash}{32591b14fca004c32adeddff2ed3eb91}
+      \strng{bibnamehash}{32591b14fca004c32adeddff2ed3eb91}
+      \strng{authorbibnamehash}{32591b14fca004c32adeddff2ed3eb91}
+      \strng{authornamehash}{32591b14fca004c32adeddff2ed3eb91}
+      \strng{authorfullhash}{32591b14fca004c32adeddff2ed3eb91}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Cambridge Monographs on Plasma Physics}
+      \field{title}{Nonlinear Magnetohydrodynamics}
+      \field{year}{1993}
+      \verb{doi}
+      \verb 10.1017/CBO9780511599965
+      \endverb
+    \endentry
+    \entry{article3}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e2911e98668fbabcab2c1c1999c46dfb}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard-Smithsonian Center for Astrophysics}%
+      }
+      \strng{namehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{fullhash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{bibnamehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{authorbibnamehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{authornamehash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \strng{authorfullhash}{e2911e98668fbabcab2c1c1999c46dfb}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard-Smithsonian Center for Astrophysics}
+      \field{month}{11}
+      \field{title}{Reduced MHD}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://lweb.cfa.harvard.edu/~namurphy/Lectures/Ay253_05_ReducedMHD.pdf
+      \endverb
+      \verb{url}
+      \verb https://lweb.cfa.harvard.edu/~namurphy/Lectures/Ay253_05_ReducedMHD.pdf
+      \endverb
+    \endentry
+    \entry{article4}{article}{}
+      \name{author}{1}{}{%
+        {{hash=15811d338c4b369a604b2fa82be99d52}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Chen},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of California}%
+      }
+      \strng{namehash}{15811d338c4b369a604b2fa82be99d52}
+      \strng{fullhash}{15811d338c4b369a604b2fa82be99d52}
+      \strng{bibnamehash}{15811d338c4b369a604b2fa82be99d52}
+      \strng{authorbibnamehash}{15811d338c4b369a604b2fa82be99d52}
+      \strng{authornamehash}{15811d338c4b369a604b2fa82be99d52}
+      \strng{authorfullhash}{15811d338c4b369a604b2fa82be99d52}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{University of California}
+      \field{month}{11}
+      \field{title}{Hall MHD and the whistler/ion-cyclotron waves}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://chenshihelio.github.io/notes/Hall_MHD_ion_cyclotron.pdf
+      \endverb
+      \verb{url}
+      \verb https://chenshihelio.github.io/notes/Hall_MHD_ion_cyclotron.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
