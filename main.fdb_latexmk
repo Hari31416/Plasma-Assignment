@@ -1,14 +1,14 @@
 # Fdb version 3
-["biber main"] 1668518822 "main.bcf" "main.bbl" "main" 1668519669
-  "main.bcf" 1668519668 107159 f26a9d13809be8b5fbb19cd0ccd2dc4e "pdflatex"
+["biber main"] 1668518822 "main.bcf" "main.bbl" "main" 1669204651
+  "main.bcf" 1669204651 107159 f26a9d13809be8b5fbb19cd0ccd2dc4e "pdflatex"
   "refs.bib" 1668511044 3785 6d8fb4f56286973ed6cfdf820de9c494 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1668519667 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Plasma-Assignment/main.tex" "main.pdf" "main" 1668519669
+["pdflatex"] 1669204649 "/media/hari31416/Hari_SSD/Users/harik/Desktop/Plasma-Assignment/main.tex" "main.pdf" "main" 1669204651
   "/etc/texmf/web2c/texmf.cnf" 1661320191 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hari31416/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1667739530 14040 63a16b4e498b70c0e23862df3f1d45a6 ""
-  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Plasma-Assignment/main.tex" 1668519369 22194 5937a7f3ff07a42dd1fa283adf25deea ""
+  "/media/hari31416/Hari_SSD/Users/harik/Desktop/Plasma-Assignment/main.tex" 1669204649 21988 ce40bdaa269d94a75be68230e43960d3 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -125,13 +125,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1663949472 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1663949492 1435942 9d98639693e0e7a93fe7badfeef9706a ""
-  "dispersion.jpg" 1668518033 37944 461e3fdd1d9268adb76b62b75a7ac2d2 ""
+  "dispersion.jpg" 1669204477 42582 c18a59388d137c5bd604cd155843e7ed ""
   "logo.png" 1663951263 56277 65704fccdbe3ce4394eab691ef7ae91d ""
-  "main.aux" 1668519668 6958 50c30a5d309358a8006a1e680ff034ed "pdflatex"
+  "main.aux" 1669204651 6926 4f8119b7787f8d0aed86fff345a7f780 "pdflatex"
   "main.bbl" 1668518822 10841 5bf1efd54993e99e84ccdd4c90e5abee "biber main"
-  "main.out" 1668519668 3368 60c60484547a929dda5600bbfa79da94 "pdflatex"
-  "main.run.xml" 1668519668 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.tex" 1668519369 22194 5937a7f3ff07a42dd1fa283adf25deea ""
+  "main.out" 1669204651 3368 60c60484547a929dda5600bbfa79da94 "pdflatex"
+  "main.run.xml" 1669204651 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.tex" 1669204649 21988 ce40bdaa269d94a75be68230e43960d3 ""
   "sunspot-tube.png" 1668501212 50501 6265f9fc5808ef1fa3d404c9d353d278 ""
   "sunspot.jpg" 1668497360 229104 12a03fabc5f23f0d2b00243e25504aa5 ""
   (generated)

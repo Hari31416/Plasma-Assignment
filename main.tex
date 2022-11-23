@@ -4,15 +4,15 @@
 \usepackage[sorting=none]{biblatex}
 \usepackage{xcolor}
 \bibliography{refs}
-\newenvironment{changemargin}[2]{%
-\begin{list}{}{%
-\setlength{\topsep}{0pt}%
-\setlength{\leftmargin}{#1}%
-\setlength{\rightmargin}{#2}%
-\setlength{\listparindent}{\parindent}%
-\setlength{\itemindent}{\parindent}%
-\setlength{\parsep}{\parskip}%
-}%
+\newenvironment{changemargin}[2]{
+\begin{list}{}{
+\setlength{\topsep}{0pt}
+\setlength{\leftmargin}{#1}
+\setlength{\rightmargin}{#2}
+\setlength{\listparindent}{\parindent}
+\setlength{\itemindent}{\parindent}
+\setlength{\parsep}{\parskip}
+}
 \item[]}{\end{list}}
 \begin{document}
 \begin{titlepage}
@@ -41,27 +41,24 @@
         \end{flushleft}
     \end{changemargin}
 \end{titlepage}
-% \newpage
-% \tableofcontents
 \begin{changemargin}{-2cm}{-2cm}
-    % \newpage
     \section{Introduction and History}
-    Magnetohydrodynamics (MHD) is a physical-mathematical framework used to study the dynamics of magnetic fields in electrically conducting fluids. Examples of these magnetofluids are plasma (the one we will be interested in), electrolytes and liquid metals. Magnetohydrodynamics is made up of three words \textbf{magneto}: magnetic, \textbf{hydro}: water (that is, liquid) and \textbf{dynamics}: refers to the movement of an object acted by forces.\cite{sd-mhd}\cite{scholar-mhd}
+    Magnetohydrodynamics (MHD) is a physical mathematical framework used to study the effect of magnetic fields in conducting fluids. Examples of these magnetofluids are plasma (the one we will be interested in), electrolytes, liquid metals etc.. Magnetohydrodynamics consists of three words: \textbf{magneto} which means magnetic, \textbf{hydro} which means water (in this context, liquid) and \textbf{dynamics} which refers to the dynamics of an object acted by one or many forces.\cite{sd-mhd}\cite{scholar-mhd}
 
-    Hannes Alfvén, a Swedish scientist, who got Nobel Prize in Physics in 1970 was the first person to use the word Magnetohydrodynamics.\cite{first-mhd}  Michael Faraday found out that the salty water flowing through the Waterloo Bridge interacts with the Earth's magnetic field producing a potential difference between the two river-banks. He called the this effect 'magneto-electric induction'. \cite{wiki-mhd}
+    Hannes Alfvén, a Swedish scientist (he got Physics' Nobel Prize in 1970) was the first person to use the word Magnetohydrodynamics.\cite{first-mhd}  Michael Faraday found out that the salty water flowing through the Waterloo Bridge (in London) interacts with the magnetic field of Earth. This results in production of a potential-difference between the two river banks. Faraday, at that time, called the this effect 'magneto electric induction'.\cite{wiki-mhd}
 
     \section{Ideal Magnetohydrodynamics}
 
-    The fundamental idea behind MHD is this: the magnetic fields induces currents in a moving conductive fluid (plasma, for example). This polarizes the fluid which results in changes in geometry and strength of the magnetic field itself. MHD is works by describing a system with a set of partial differential equations from electrodymanics and fluid mechanics. Before we mention these equations, we'll give a brief overview of the assumptions MHD makes, its usefulness and its limitations.
+    The main idea of MHD is this: the magnetic fields acting on the system induces currents in plasma (or the moving conductive fluid we are interested in). This polarizes the fluid which results in changes in geometry and strength of the magnetic field itself. MHD is works by describing a system with a set of partial differential equations from electrodymanics and fluid mechanics. Before we mention these equations, we'll give a brief overview of the assumptions MHD makes, its usefulness and its limitations.
 
     \subsection{Assumptions of MHD}
     MHD makes quite a few assumptions. Some of them are\cite{article1}:
     \begin{itemize}
-        \item MHD is a low frequency, ie., long wavelength approximation.
-        \item It is valid only for length scales longer than the Debye length ($\lambda_D$) and the gyroradii of electron ($r_e$) and ions ($r_i$): $$ L \gg \lambda_D, r_e, r_i$$.
+        \item This is a low frequency (so, long wavelength)  approximation.
+        \item It is valid only for length scales which are longer than the Debye length (say, $\lambda_D$) and the gyroradii of electron (say, $r_e$) and ions (say, $r_i$). Which means: $$ L \gg \lambda_D, r_e, r_i$$.
         \item The time scale should be longer than the inverses of the plamsa frequency ($\omega_p$), electron cyclotron frequency ($\omega_c$) and ion cyclotron frequency ($\Omega_{c}$): $$\tau \gg \frac{1}{\omega_p}, \frac{1}{\omega_c}, \frac{1}{\Omega_{c}}$$.
         \item The model assumes quasi-neutrality and the electron and ion temperatures are equal.
-        \item The collisions are frequent enough for the particle distribution to be in form of Maxwellian distribution.
+        \item Frequent collisions are assumed. By frequent, we mean that the collision should be enough for the distribution of particle  to be in form of Maxwellian distribution.
         \item Equation of state is assumed to be adiabatic.
         \item Finally, the model also neglects the many physical advances made after 1860 such as:
               \begin{itemize}
@@ -72,7 +69,7 @@
     \end{itemize}
 
     \subsubsection{Why \textit{Ideal} MHD?}
-    There is one more assumption needed for MHD to become \textbf{ideal MHD}. This is the assumption that the fluid has very little resistivity and hence it can be treated as a perfect conductor. This limit is analogous to setting the magnetic Reynolds number $R_m$ to $\infty$.
+    There is one more assumption needed for MHD to become \textbf{ideal MHD}. This is the assumption about the resistivity of fluid. In MHD, the fluid is considered to have very little resistivity and hence it is treated as a perfect conductor. This limit is analogous to treating the magnetic Reynolds number $R_m$ as $\infty$.
 
     \subsection{Usefulness of MHD}
     There are some systems, in which MHD works very well while in some it performs just okay. Traditionally, MHD describes macroscopic force balance, equilibrium and dynamics on large scale. MHD is a very good predictor of plasma stability. The model describes most of the catastrophic instabilties as unstable in laboratory plamsa and solar atmosphere. The system which are described reasonably well by MHD are solar wind, heliosphere, Earth's magnetosphere, Neutron star magnetospheres etc.
@@ -87,31 +84,31 @@
     Note however that even if MHD describes a lot of system just mediocrly, it is a very good predictor of the stability of the system.
 
     \section{MHD Equations}
-    Ideal MHD comprises of a number of partial differential equations which must be solve simultaneously either analytically or numerically. These equations are made up of the conservation of mass, momentum and energy along with the induction equation for the magnetic field.\cite{article2}
+    Ideal MHD comprises of a number of partial differential equations which must be solve simultaneously either analytically or numerically. These equations are made up of the conservation of mass, conservation of momentum and conservation of energy along with the induction equation.\cite{article2}
 
     \subsection{The Continuity Equation}
     The continuity equation, given by
     \begin{equation}\label{eq:continuity}
-        \frac{\partial \rho}{\partial t}  +\nabla \cdot \rho \mathbf{v} = 0
+        \frac{\partial \rho}{\partial t}  +\nabla \cdot (\rho \mathbf{v}) = 0
     \end{equation}
-    is basically conservation of mass. This says that the change in mass inside a volume $V$ equals the mass entering or leaving the surface of the volume.
+    is nothing but conservation of mass. This says that the change in mass inside a volume $V$ equals the mass entering or leaving the surface of the volume.
 
     \subsection{Momentum Equation}
-    Also called the Cauchy momentum equation, the equation,
+    This is also known as Cauchy's momentum equation, the equation,
     \begin{equation}\label{eq:momentum}
         \rho \left({\frac {\partial }{\partial t}}+\mathbf {v} \cdot \nabla \right)\mathbf {v} =\mathbf {J} \times \mathbf {B} -\nabla p
     \end{equation}
     describes the non-relativistic momentum transport in a liquid.\cite
     {wiki-momentum}
 
-    Note that the term $\mathbf {J} \times \mathbf {B}$ can be written as:
+    Writing the term $\mathbf {J} \times \mathbf {B}$ as:
     \begin{equation}\label{eq:j-b}
         \mathbf {J} \times \mathbf {B} ={\frac {\left(\mathbf {B} \cdot \nabla \right)\mathbf {B} }{\mu _{0}}}-\nabla \left({\frac {B^{2}}{2\mu _{0}}}\right)
     \end{equation}
-    where the first term on the right hand side is the magnetic tension force and the second term is the magnetic pressure force.
+    we see that the first term on the right hand side is the magnetic tension (a restoring force) and the second term is the magnetic pressure (energy density).
 
     \subsection{Ampere and Faraday Equation}
-    MHD does not takes into consideration the displacement current in Ampere's law and hence the form of Ampere's equation used in MHD is:
+    MHD does not takes into consideration the displacement current in Ampere's law, as we saw in section 2.1. aSo, the form of Ampere's equation used in MHD becomes:
     \begin{equation}\label{eq:apmere}
         \mu _{0}\mathbf {J} =\nabla \times \mathbf {B}
     \end{equation}
@@ -120,31 +117,30 @@
         {\frac {\partial \mathbf {B} }{\partial t}}=-\nabla \times \mathbf {E}
     \end{equation}
     \subsection{Ideal Ohm's Law}
-    Assuming perfect conductor, the ideal Ohm's law is:
+    Assuming a perfect conductor, the ideal form of Ohm's law is:
     \begin{equation}\label{eq:ohm}
         \mathbf {E} +\mathbf {v} \times \mathbf {B} =0
     \end{equation}
 
     \subsection{Adiabatic Energy Equation}
-    We use the adiabatic equation of state to write the energy equation as
+    We use the adiabatic equation of state to write the adiabatic energy equation as
     \begin{equation}\label{eq:energy}
         {\frac {\mathrm {d} }{\mathrm {d} t}}\left({\frac {p}{\rho ^{\gamma }}}\right)=0
     \end{equation}
-    where $\gamma = \frac{5}{3}$ is the ratio of specific heats.
+    here $\gamma = \frac{C_V}{C_P}= \frac{5}{3}$ is the heat capacity ratio.
 
     \subsection{Divergence Constraint}
-    A final equation is needed to close the set of equations describing MHD. This is the equation
+    Another equation is needed to close the set of equations which describes MHD. We use the equation
     \begin{equation}\label{eq:divergence}
         \nabla \cdot \mathbf {B} =0
     \end{equation}
-    which states that the divergence of the magnetic field should be zero.
+    which states that the magnetic field has no divergence.
 
     \subsection{Ideal MHD Equation}
-    % \subsection{Ideal MHD Equations}
     Let's put all these seven equations together.
     \begin{align}\label{eq:mhd}
         \begin{split}
-            \frac{\partial \rho}{\partial t}  +\nabla \cdot \rho \mathbf{v}                            & = 0                                       \\
+            \frac{\partial \rho}{\partial t}  +\nabla \cdot (\rho \mathbf{v})                            & = 0                                       \\
             \rho \left({\frac {\partial }{\partial t}}+\mathbf {v} \cdot \nabla \right)\mathbf {v} & =\mathbf {J} \times \mathbf {B} -\nabla p \\
             \mu _{0}\mathbf {J}                                                                    & =\nabla \times \mathbf {B}                \\
             {\frac {\partial \mathbf {B} }{\partial t}}                                            & =-\nabla \times \mathbf {E}               \\
@@ -153,15 +149,16 @@
             \nabla \cdot \mathbf {B}                                                               & =0
         \end{split}
     \end{align}
-    In total the MHD equations thus consist of two vector and two scalar partial differential equations (or eight scalar equations) that are to be solved simultaneously, either analytically or numerically.
+    So, in MHD there are two vector and two scalar partial differential equations (meaning eight scalar equations) that must be solved simultaneously. The solutions can be found either analytically or numerically.
 
     \begin{figure}[h]
+        \centering
         \includegraphics[width=1.0\textwidth, height=0.5\textwidth]{sunspot.jpg}
-        \caption{A large group of sunspots stretching about 320,000 km (200,000 mi) across Image Credit: Wikimedia Commons}
+        \caption{A group of sunspots stretching almost 320,000 km across\\ Image Credit: Wikimedia Commons}
         \label{fig:sunspot}
     \end{figure}
     \section{Applying MHD on Sunspots}
-    Here, we'll consider a simple example which shows how we can use MHD to solve some physical problem. We'll take an example of \textbf{sunspot} and see how MHD can be used to explain the phenomenon. See the Figure \ref{fig:sunspot} for a picture of a sunspot. Sunspots are dark spots on the surface of the Sun which lasts typically for a number of days. They are magnetic regions on Sun with magnetic field strength thousands of times stronger than the Earth's magnetic field.
+    Here, we'll consider a simple example which shows how we can use MHD to solve some physical problem. We'll take an example of \textbf{sunspot} and see how MHD can be used to explain the phenomenon. See the Figure \ref{fig:sunspot} for a picture of a sunspot. Sunspots are a dark spots on the surface of the Sun that lasts typically for a number of days. These are magnetic regions on Sun which have magnetic field strength that are thousands of times stronger than the magnetic field of Earth.
 
     Consider a sunspot as a verticle magnetic flux tube. The magnetic field lines are shown in Figure \ref{fig:flux-tube}. The magnetic fields $\mathbf{B_0}$ is verticle. $P_0$ and $T_0$ are the pressure and temperature inside the sunspot while $P_{E}$ and $T_{E}$ are the pressure and temperature outside the sunspot.\cite{article2}
 
@@ -179,7 +176,7 @@
     \begin{equation}
         P_E = P_0 + \frac{B_0^2}{2\mu_0}
     \end{equation}
-    We assume that the density is the same inside and outside the plasma, ie., $\rho_0 = \rho_E$. Dividing by them, the above equation becomes
+    We assume that the density is equal inside and outside the plasma, ie., $\rho_0 = \rho_E$. Dividing by them, the above equation becomes
     \begin{equation}
         \frac{P_E}{\rho_E} = \frac{P_0}{\rho_0} + \frac{B_0^2}{2\mu_0\rho_0}
     \end{equation}
@@ -195,7 +192,7 @@
     \begin{equation}\label{eq:sunspot-temp}
         \frac{T_E}{T_0} = 1 - \frac{B_0^2}{2\mu_0P_E}
     \end{equation}
-    This means that in a sunspot $T_E>T_0$. This is indeed the case. Temperatures in the dark centers of sunspots may drop to about 3700K compared to the 5800K of the surrounding photosphere.
+    This means that in a sunspot $T_E>T_0$. This is indeed the case. In the dark centers of sunspots, temperatures may drop to about 3700K (as comparision the surrounding photosphere has temperature to the 5800K).
 
     \section{Non Linearty}
     \subsection{Why Non Linearty?}
@@ -205,12 +202,6 @@
 
     \subsection{Reduced MHD Equations}
     The original MHD equation (Equation \ref{eq:mhd}) contain seven independent dynamic variables: hree velocity components, Two magnetic field components as $\nabla \cdot \mathbf{B} = 0$, Density and Pressure.
-    % \begin{enumerate}
-    %     \item Three velocity components
-    %     \item Two magnetic field components as $\nabla \cdot \mathbf{B} = 0$
-    %     \item Density
-    %     \item Pressure
-    % \end{enumerate}
     However, assuming incompressiblity and homogeneous density, we can reduce the number of dynamic variables to four, two velocity components (As $\nabla \cdot \mathbf{v} = 0$) and two magnetic field components. Pressure is now a functions of $\mathbf{v}$ and $\mathbf{B}$ while density is a constant. This is called the \textbf{reduced MHD equations}. The complete equations are\cite{article3}:
     \begin{align}\label{eq:reduced-mhd-1}
         \begin{split}
@@ -226,15 +217,13 @@
             \mathbf{v_\perp} &= \mathbf{\hat{z}}\times \nabla \phi\\
         \end{split}
     \end{align}
-    % \subsection{Work Done Using Non Linear MHD}
-    % A lot of work has been done using non linear MHD. Most of them are simulations as non linear MHD is very difficult to solve analytically. For example: "Linear and nonlinear particle-magnetohydrodynamic simulations of the toroidal Alfvén eigenmode" \cite{nonlinear2}
 
     \section{Whistler: The Hall MHD}
-    In ideal MHD, there are only 3 types of waves: Alfv\'en wave, fast magnetosonic wave and slow magnetosonic wave. However, if
-    we include the Hall term, we will get two more waves: whistler wave and the ion cyclotron wave.\cite{article4} To get a dispersion relation for whistler, we'll start by normalizing MHD equations with generalized Ohm's law.
+    In ideal MHD, there are only 3 types of waves: Alfv\'en wave, slow magnetosonic wave and fast magnetosonic wave. However, if
+    we include the Hall term, we will get two more waves: whistler wave and the ion cyclotron wave.\cite{article4} To get a dispersion relation for whistler, we'll start by normalizing MHD equations with generalized form of Ohm's law.
 
     \subsection{Ohm's Law and Normalization}
-    Taking only the resistive and Hall term in the generalized Ohm's law, we get:
+    Taking only the resistive and Hall term in the generalized form of Ohm's law, we get:
     \begin{equation}
         \mathbf{E} + \mathbf{v\times B} = \eta \mathbf{J} + \frac{1}{ne}\mathbf{J\times B}
     \end{equation}
@@ -246,7 +235,7 @@
     \begin{equation}\label{eq:ohm-normal}
         \frac{\partial \mathbf{B}}{\partial t} = \nabla \times \left(\mathbf{v\times B}\right)- \frac{1}{S}\nabla \times \mathbf{J} -\frac{d_i}{L}\nabla \times \left(\frac{\mathbf{J\times B}}{n}\right)
     \end{equation}
-    Where $d_i$ is the ion inertial length and $S$ is the Lundquist number defined as:
+    Here, $d_i$ is the ion inertial length and $S$ is the Lundquist number defined as:
     \begin{align}
         \begin{split}
             \mathbf{J} &= \nabla \times \mathbf{B}\\
@@ -255,7 +244,7 @@
         \end{split}
     \end{align}
 
-    Similarly, by help of $nm_iV_A^2$ to normalize pressure, the normalized form of the momentum equation is:
+    Similarly, by help of $nm_iV_A^2$ to normalize pressure, the normalized form of the above momentum equation (Equation \ref{eq:momentum}) is:
     \begin{eqnarray}\label{eq:momentum-normal}
         n\left(\frac{\partial \mathbf{v}}{\partial t}+\mathbf{v} \cdot \nabla \mathbf{u} \right) = -\nabla p + \mathbf{J\times B}
     \end{eqnarray}
@@ -278,7 +267,7 @@
         -k^2\left[\omega - \frac{(\mathbf{k \cdot B_0})^2}{\omega} \right]\mathbf{v_1} + id_1k^2(\mathbf{k \cdot B_0})(\mathbf{k \times v_1}) = 0
     \end{equation}
 
-    Combining Equations \ref{eq:el1} and \ref{eq:el2} and setting the determinant of the coefficients to zero, we get the dispersion relation:
+    Combining Equations \ref{eq:el1} and \ref{eq:el2} and equating the determinant of the coefficients to zero, we get the dispersion relation:
     \begin{equation}
         \left[\omega - \frac{(\mathbf{k \cdot B_0})^2}{\omega} \right]^2 = \left[kd_i(\mathbf{k \cdot B_0})\right]^2
     \end{equation}
@@ -297,7 +286,6 @@
     We started by discussing history and basic introduction of MHD followed by assumptions made by the model along with its usefulness and limitations. After that, we wrote the set of seven equations which are needed to solve simultaneously. We also talked about what is \textit{ideal} in the ideal MHD. This was followed by a simple example where we used MHD to show that the temperature of sunspots (Equation \ref{eq:sunspot-temp}) are lower than its surrounding. Then we proceded to show that linear MHD is not always helpful and it is not able to answer a lot of questions. We talked about using nonlinearty to answer these questions and discussed the complications made by introducing nonlinearty as well as restrictions posed by this on physical systems in which we can use this. It turned out that numerical approach will be much more fruitful for non linear case. We also talked about the reduced MHD equations \ref{eq:reduced-mhd-1} and \ref{eq:reduced-mhd-2} which is easier to tackle.
 
     Finally, we saw that including Hall effect in the MHD equations \ref{eq:mhd} results in generation of whistler mode. We normalized and linearized the Ohm's equation \ref{eq:ohm-normal} and the momentum equation \ref{eq:momentum-normal} to get the dispersion relation \ref{eq:whistler} for the whistler wave. We saw that there are two waves in the mode, one right and other left polarized. We also made a plot (Figure \ref{fig:whistler}) of the dispersion curve using \textcolor{cyan}{matplotlib} and \textcolor{cyan}{Python}.
-    % \newpage
     \printbibliography
 \end{changemargin}
 \end{document}
